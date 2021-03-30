@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>Azure Communication Services - VoIP Calling | Teams Interop</title>
+  </head>
+  <body>
+    <h1>Azure Communication Services</h1>
+    <h2>VoIP Calling | Teams Meeting Join Sample App</h2>
+    <div>
+      <label>Your UserId: </label>
+      <input
+      id="caller-id-output"
+      type="text"
+      placeholder="Your id will be shown here"
+      style="margin-bottom:1em; width: 600px; vertical-align: text-top;"
+      disabled="true"
+      />
+    </div>
+    <div>
+      <label>Your Token: </label>
+      <textarea 
+      id="caller-token-output"
+      type="text"
+      placeholder="Your token will be shown here"
+      style="margin-bottom:1em; width: 600px; height: 130px; vertical-align: text-top;"
+      disabled="true"
+      ></textarea>
+    </div>
+    <div>
+      <input 
+      id="callee-id-input"
+      type="text"
+      placeholder="Who would you like to call?"
+      style="margin-bottom:1em; width: 300px;"
+      />
+      <button id="call-button" type="button" disabled="true" style="margin-bottom:1em">
+        Start Call
+      </button>
+    </div>
+    <div>
+      <input 
+      id="meeting-url-input" 
+      type="text" 
+      placeholder="Copy and paste MSTeams meeting link"
+      style="margin-bottom:1em; width: 300px;"
+      />
+      <button id="join-meeting-button" type="button" disabled="true" style="margin-bottom:1em">
+        Join Teams Meeting
+      </button>
+    </div>
+    <div>
+      <button id="hang-up-button" type="button" disabled="true" style="margin-bottom:1em">
+        Hang Up
+      </button>
+    </div>
+    <div>
+      <label
+      id="message-output"
+      style="margin-bottom:1em; width: 1000px; height: 50px;"
+      ></label>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
