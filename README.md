@@ -12,12 +12,19 @@ Sample demo apps using [Azure Communication Services](https://azure.microsoft.co
     - ACSCallWeb (node.js)
         - Azure Communication Services 接続してユーザー (CommunicationUser) を作成、VoIP 通話を行うことができる Web アプリです。通話テストでは、Azure Communication Services 通話テスト用ユーザー (id: **8:echo123**) が利用できます。
         - Web app to create user (CommunicationUser) and make VoIP call through Azure Communication Services. Please use Azure Communication Services calling test user (id: **8:echo123**).
+    - ACSTeamsCallWeb (node.js)
+        - Azure Communication Services 接続してユーザー (CommunicationUser) を作成、VoIP 通話 および Microsoft Teams 会議へ音声参加 を行うことができる Web アプリです。通話テストでは、Azure Communication Services 通話テスト用ユーザー (id: **8:echo123**) が利用できます。
+        - Web app to create user (CommunicationUser) and make VoIP call | join Microsoft Teams meeting through Azure Communication Services. Please use Azure Communication Services calling test user (id: **8:echo123**).
 
 - Requirements
     - Azure サブスクリプション & Azure Communication Services サービス
         - Azure Portal から Azure Communication Services の接続文字列(Connection String) と エンドポイント(URL) を取得し、アプリ内の 接続文字列 および エンドポイント を書き換えてください
+    - Azure Communication Services と Microsoft Teams の相互運用 (ACSTeamsCallWeb)
+        - Azure Communication Services から Microsoft Teams テナントに接続するための設定リクエストを行ってください (-> [リクエストフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR21ouQM6BHtHiripswZoZsdURDQ5SUNQTElKR0VZU0VUU1hMOTBBMVhESS4u))
     - Azure Subscription & Azure Communication Services
         - Get Connection String and endpoint (URL) from Azure Portal. Replace connection string and endpoint in apps.
+    - Azure Communication Services & Microsoft Teams Interop (ACSTeamsCallWeb)
+        - Need to make request to enable Microsoft Teams tenant to accress from Azure Communication Services (-> [Request Form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR21ouQM6BHtHiripswZoZsdURDQ5SUNQTElKR0VZU0VUU1hMOTBBMVhESS4u))
 
 - Demo
     - ACSConsole

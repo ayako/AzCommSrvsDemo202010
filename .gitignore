@@ -1,0 +1,10 @@
+# for node.js
+node_modules/
+
+# for CSharp
+.vs/
+[Bb]in/
+[Oo]bj/
+
+*.user
+*.[Cc]ache
