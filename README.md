@@ -31,3 +31,6 @@ Sample demo apps using [Azure Communication Services](https://azure.microsoft.co
         - ![ACSConsole-Video](ACSConsole202010.gif)
     - ACSCallWeb
         - ![ACSCallWeb-Video](ACSCallWeb202010.gif)
+    - ACSTeamsCallWeb
+        - ![ACSTeamsCallWeb-Video-VoIP](ACSTeamsCallWeb202103_VoIP.gif)
+        - ![ACSTeamsCallWeb-Video-Teams](ACSTeamsCallWeb202103_Teams.gif)
