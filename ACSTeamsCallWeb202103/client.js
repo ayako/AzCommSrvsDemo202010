@@ -82,7 +82,7 @@ joinMeetingButton.addEventListener("click", () => {
 
 hangUpButton.addEventListener("click", () => {
     // Hang up Call | Teams Meeting
-    call.hangUp({ forEveryone: true });
+    call.hangUp({ forEveryone: false });
   
     // Button Enable | Disable change, show status messages 
     hangUpButton.disabled = true;       // Enable to Hang up
