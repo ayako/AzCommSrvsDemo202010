@@ -15,6 +15,9 @@ Sample demo apps using [Azure Communication Services](https://azure.microsoft.co
     - ACSTeamsCallWeb (node.js)
         - Azure Communication Services 接続してユーザー (CommunicationUser) を作成、VoIP 通話 および Microsoft Teams 会議へ音声参加 を行うことができる Web アプリです。通話テストでは、Azure Communication Services 通話テスト用ユーザー (id: **8:echo123**) が利用できます。
         - Web app to create user (CommunicationUser) and make VoIP call | join Microsoft Teams meeting through Azure Communication Services. Please use Azure Communication Services calling test user (id: **8:echo123**).
+    - ACSTeamsVideoWeb (node.js)
+        - Azure Communication Services 接続してユーザー (CommunicationUser) を作成、Microsoft Teams 会議へビデオ参加 (カメラ画像＋音声) を行うことができる Web アプリです。
+        - Web app to create user (CommunicationUser) and join Microsoft Teams meeting with camera video and voice through Azure Communication Services. 
 
 - Requirements
     - Azure サブスクリプション & Azure Communication Services サービス
@@ -23,7 +26,7 @@ Sample demo apps using [Azure Communication Services](https://azure.microsoft.co
         - Azure Communication Services から Microsoft Teams テナントに接続するための設定リクエストを行ってください (-> [リクエストフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR21ouQM6BHtHiripswZoZsdURDQ5SUNQTElKR0VZU0VUU1hMOTBBMVhESS4u))
     - Azure Subscription & Azure Communication Services
         - Get Connection String and endpoint (URL) from Azure Portal. Replace connection string and endpoint in apps.
-    - Azure Communication Services & Microsoft Teams Interop (ACSTeamsCallWeb)
+    - Azure Communication Services & Microsoft Teams Interop (ACSTeamsCallWeb | ACSTeamsVideoWeb)
         - Need to make request to enable Microsoft Teams tenant to accress from Azure Communication Services (-> [Request Form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR21ouQM6BHtHiripswZoZsdURDQ5SUNQTElKR0VZU0VUU1hMOTBBMVhESS4u))
 
 - Demo
@@ -34,3 +37,5 @@ Sample demo apps using [Azure Communication Services](https://azure.microsoft.co
     - ACSTeamsCallWeb
         - ![ACSTeamsCallWeb-Video-VoIP](ACSTeamsCallWeb202103_VoIP.gif)
         - ![ACSTeamsCallWeb-Video-Teams](ACSTeamsCallWeb202103_Teams.gif)
+    - ACSTeamsVideoWeb
+        - ![ACSTeamsVideoWeb-Video](ACSTeamsVideoWeb202104.gif)
